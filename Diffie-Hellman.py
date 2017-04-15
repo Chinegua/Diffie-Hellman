@@ -46,7 +46,6 @@ def calculo(alfa,xa,xb,modulo):
 
     ya = exponente(alfa,xa,modulo)
     yb = exponente(alfa,xb,modulo)
-    print (yb)
     k1 = exponente(yb,xa,modulo)
     k2 = exponente(ya, xb, modulo)
 
